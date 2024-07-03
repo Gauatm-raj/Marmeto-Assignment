@@ -1,0 +1,177 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.product-image-container{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.main-img{
+  width: 100%;
+  height: 80%;
+}
+.main-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thumbnail-container {
+  
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+}
+
+.thumbnail {
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.product{
+  width: 40%;
+  
+}
+
+.product h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+  
+}
+
+.product h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.current-price {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.discount {
+  font-size: 14px;
+  color: red;
+}
+
+.original-price {
+  font-size: 16px;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.color.selected {
+  border: 2px solid #000; /* Makes the border thicker and black */
+  outline: 2px solid #FFD700; /* Adds a gold outline for better visibility */
+}
+
+.color-options {
+  display: flex;
+  align-items: center;
+}
+
+.size-options label {
+  margin-right: 10px;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-selector button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.quantity-selector input {
+  width: 50px;
+  text-align: center;
+}
+
+/* .colors, .sizes, .quantity {
+  margin: 20px 0;
+}
+
+.color-options, .size-options, .quantity-selector {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.color.yellow { background: yellow; }
+.color.green { background: green; }
+.color.blue { background: blue; }
+.color.pink { background: pink; } */
+
+
+.quantity-selector button {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#add-to-cart {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#cart-message {
+  margin-top: 20px;
+  color: green;
+  font-weight: 600;
+}
