@@ -41,6 +41,7 @@ body {
   bottom: 10px;
   left: 10px;
   display: flex;
+  justify-content: space-between;
 }
 
 .thumbnail {

@@ -23,6 +23,7 @@ let container = document.querySelector(".container");
                         <img src="https://as1.ftcdn.net/v2/jpg/01/20/36/84/1000_F_120368458_jM1rSc1O5k58W6KM4aaexJnVpTaD768g.jpg" alt="Product Thumbnail" class="thumbnail">
                         <img src="https://as1.ftcdn.net/v2/jpg/01/20/36/84/1000_F_120368458_jM1rSc1O5k58W6KM4aaexJnVpTaD768g.jpg" alt="Product Thumbnail" class="thumbnail">
                         <img src="https://as1.ftcdn.net/v2/jpg/01/20/36/84/1000_F_120368458_jM1rSc1O5k58W6KM4aaexJnVpTaD768g.jpg" alt="Product Thumbnail" class="thumbnail">
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/20/36/84/1000_F_120368458_jM1rSc1O5k58W6KM4aaexJnVpTaD768g.jpg" alt="Product Thumbnail" class="thumbnail">
                     </div>
                 </div>
                 <div class="product">
